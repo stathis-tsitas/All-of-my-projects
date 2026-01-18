@@ -1,0 +1,48 @@
+S 5
+G 1 "Fiction"
+G 2 "Science"
+G 3 "History"
+
+BK 101 1 "Zodiac"
+BK 102 1 "Aardvark"
+BK 103 1 "Middle"
+BK 201 2 "Calculus"
+BK 202 2 "Algebra"
+BK 203 2 "Physics"
+BK 301 3 "Lost History"
+
+M 10 "Anna"
+M 20 "Zoe"
+M 30 "Bob"
+
+L 10 101
+L 10 201
+L 20 102
+L 30 203
+
+R 10 101 9 ok
+R 10 201 9 ok
+R 20 102 10 ok
+R 30 203 7 ok
+R 10 201 10 ok
+R 30 203 10 ok
+
+TOP 3
+
+AM
+
+F "Lost History"
+R 30 301 0 lost
+F "Lost History"
+
+F "Middle"
+U 103 "New Title"
+F "Middle"
+F "New Title"
+
+X
+
+D
+PD
+
+BF

@@ -1,0 +1,49 @@
+
+S 3
+G 1 "Klasika Vivlia"
+G 2 "Alla diafora"
+G 3 "Paidika"
+
+BK 101 1 "Pinokio"
+BK 102 1 "emvolimi 2026"
+BK 201 2 "Syntages Vefas"
+BK 202 2 "Star trek"
+BK 203 2 "240 Domes"
+
+M 10 "Maria"
+M 11 "Nikos"
+M 12 "Giwrgos"
+
+F "Pinokio"
+F "Syntages Vefas"
+F "Harry Potter"
+
+L 10 101
+L 10 201
+L 11 102
+L 12 203
+
+
+R 10 101 10 ok
+R 10 201 8 ok
+R 11 102 10 ok
+
+TOP 5
+
+AM
+
+F "240 Domes"
+U 203 "Kama sutra"
+F "240 Domes"
+F "Kama sutra"
+
+R 12 203 0 lost
+
+F "Kama sutra"
+
+X
+
+D
+PD
+
+BF
