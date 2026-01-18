@@ -8,7 +8,7 @@
 
 ## To compile and run: 
 
-*If you have changed the icon first do:
+If you have changed the icon first do:
  **windres assets.rc -o assets.o**
 
 *Otherwise do: 
