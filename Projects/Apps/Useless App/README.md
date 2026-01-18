@@ -2,4 +2,4 @@
 
 ## How to run:
 * Compile the code using **gcc Useless_App.c -o SurpriseApp.exe -mwindows**
-* Run the program using **.\SurpriseApp.exe **
+* Run the program using **.\SurpriseApp.exe**
