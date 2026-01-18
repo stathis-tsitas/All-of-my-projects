@@ -11,7 +11,7 @@
 If you have changed the icon first do:
  **windres assets.rc -o assets.o**
 
-*Otherwise do: 
+Otherwise do: 
 **gcc main.c assets.o -o TestApp.exe**
 **Do .\TestApp.exe to run the actual program or double-click the executable**
 
