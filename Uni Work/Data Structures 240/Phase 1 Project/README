@@ -1,10 +1,10 @@
-Phase 1 Project 240
+# Phase 1 Project 240
 
-To compile:
-gcc -o <name of exe> main.c library.c
+## To compile:
+**gcc -o <name of exe> main.c library.c**
 
-To run:
+## To run:
 
-\<name of exe> test(1 or 2)
+**\<name of exe> test(1 or 2)**
 
-Stathis Tsitas csd4758
+*Stathis Tsitas csd4758*
