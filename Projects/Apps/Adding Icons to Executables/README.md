@@ -8,9 +8,11 @@
 
 ## To compile and run: 
 
-**If you have changed the icon first do: **windres assets.rc -o assets.o****
+*If you have changed the icon first do:
+ **windres assets.rc -o assets.o**
 
-**Otherwise do: **gcc main.c assets.o -o TestApp.exe****
+*Otherwise do: 
+**gcc main.c assets.o -o TestApp.exe****
 **Do .\TestApp.exe to run the actual program or double-click the executable**
 
 *Stathis Tsitas*
