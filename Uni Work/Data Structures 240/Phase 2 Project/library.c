@@ -428,7 +428,7 @@ void lib_R(library_t* lib, int sid ,int bid , int score, const char* status) {
     }
 
     prev->next = curr->next;
-    free(curr);
+    free(curr); // free the pointers
 
     if (strcmp(status, "lost") == 0) {
         book->lost_flag = 1;
